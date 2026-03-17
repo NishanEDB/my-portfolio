@@ -1270,7 +1270,7 @@
 </section>
 
 <!-- ── PROJECTS ── -->
-<section id="projects">
+{{-- <section id="projects">
     <div class="projects-wrap">
         <div class="projects-header">
             <div class="fade-up">
@@ -1357,7 +1357,178 @@
             </div>
         </div>
     </div>
+</section> --}}
+
+
+<!-- ── PROJECTS ── -->
+<section id="projects">
+    <div class="projects-wrap">
+        <div class="projects-header">
+            <div class="fade-up">
+                <div class="section-label">Work</div>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            <p class="section-desc fade-up">
+                A selection of projects I've built across government, enterprise, and startup environments — each solving real problems with clean, maintainable code.
+            </p>
+        </div>
+
+        <div class="projects-grid">
+
+            <div class="project-card featured fade-up">
+                <div class="project-card-top">
+                    <span class="project-number">01</span>
+                    <div class="project-links">
+                        <a href="#" class="project-link" title="GitHub">
+                            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.54-1.38-1.33-1.75-1.33-1.75-1.09-.74.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.48 1 .1-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 013-.4c1.02.005 2.04.14 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.65 1.66.24 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58C20.57 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                        </a>
+                        <a href="#" class="project-link" title="Live">
+                            <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <h3 class="project-title">Export Management System</h3>
+                <p class="project-desc">
+                    A comprehensive web-based platform for the Export Development Board of Sri Lanka to manage exporter registrations, trade data, reporting workflows, and government approval pipelines with role-based access control.
+                </p>
+                <div class="project-stack">
+                    <span class="stack-tag">Laravel</span>
+                    <span class="stack-tag">CodeIgniter</span>
+                    <span class="stack-tag">React</span>
+                    <span class="stack-tag">MySQL</span>
+                    <span class="stack-tag">Docker</span>
+                </div>
+            </div>
+
+            <div class="project-card featured fade-up">
+                <div class="project-card-top">
+                    <span class="project-number">02</span>
+                    <div class="project-links">
+                        <a href="#" class="project-link" title="GitHub">
+                            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.54-1.38-1.33-1.75-1.33-1.75-1.09-.74.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.48 1 .1-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 013-.4c1.02.005 2.04.14 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.65 1.66.24 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58C20.57 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                        </a>
+                        <a href="#" class="project-link" title="Live">
+                            <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <h3 class="project-title">Cross-Platform Mobile App</h3>
+                <p class="project-desc">
+                    A fully-featured Flutter mobile application built at Prodigit with real-time video/audio calling via Agora SDK, Firebase push notifications, cloud storage on GCP, and a Laravel REST API backend serving both Android and iOS.
+                </p>
+                <div class="project-stack">
+                    <span class="stack-tag">Flutter</span>
+                    <span class="stack-tag">Dart</span>
+                    <span class="stack-tag">Laravel</span>
+                    <span class="stack-tag">Firebase</span>
+                    <span class="stack-tag">Agora</span>
+                    <span class="stack-tag">GCP</span>
+                </div>
+            </div>
+
+            <div class="project-card fade-up">
+                <div class="project-card-top">
+                    <span class="project-number">03</span>
+                    <div class="project-links">
+                        <a href="#" class="project-link" title="GitHub">
+                            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.54-1.38-1.33-1.75-1.33-1.75-1.09-.74.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.48 1 .1-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 013-.4c1.02.005 2.04.14 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.65 1.66.24 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58C20.57 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                        </a>
+                        <a href="#" class="project-link" title="Live">
+                            <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <h3 class="project-title">VisionCare Patient Portal</h3>
+                <p class="project-desc">
+                    An internal healthcare web application for Imedirep / VisionCare Group to manage patient records, appointment scheduling, and clinical workflows — built as an Associate Software Engineer using CodeIgniter and Java.
+                </p>
+                <div class="project-stack">
+                    <span class="stack-tag">CodeIgniter</span>
+                    <span class="stack-tag">Java</span>
+                    <span class="stack-tag">MySQL</span>
+                    <span class="stack-tag">Bootstrap</span>
+                </div>
+            </div>
+
+            <div class="project-card fade-up">
+                <div class="project-card-top">
+                    <span class="project-number">04</span>
+                    <div class="project-links">
+                        <a href="#" class="project-link" title="GitHub">
+                            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.54-1.38-1.33-1.75-1.33-1.75-1.09-.74.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.48 1 .1-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 013-.4c1.02.005 2.04.14 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.65 1.66.24 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58C20.57 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                        </a>
+                        <a href="#" class="project-link" title="Live">
+                            <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <h3 class="project-title">Laravel Multi-Tenant SaaS API</h3>
+                <p class="project-desc">
+                    A robust multi-tenant REST API backend with JWT authentication, scoped database tenancy, queue-based email/SMS notifications, and a React admin dashboard — built to support multiple client organisations from a single codebase.
+                </p>
+                <div class="project-stack">
+                    <span class="stack-tag">Laravel</span>
+                    <span class="stack-tag">JWT</span>
+                    <span class="stack-tag">React</span>
+                    <span class="stack-tag">MySQL</span>
+                    <span class="stack-tag">Redis</span>
+                    <span class="stack-tag">Docker</span>
+                </div>
+            </div>
+
+            <div class="project-card fade-up">
+                <div class="project-card-top">
+                    <span class="project-number">05</span>
+                    <div class="project-links">
+                        <a href="#" class="project-link" title="GitHub">
+                            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.54-1.38-1.33-1.75-1.33-1.75-1.09-.74.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.48 1 .1-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 013-.4c1.02.005 2.04.14 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.65 1.66.24 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58C20.57 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                        </a>
+                        <a href="#" class="project-link" title="Live">
+                            <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <h3 class="project-title">Real-Time Delivery Tracker</h3>
+                <p class="project-desc">
+                    A Flutter mobile app with live GPS order tracking, Agora-powered driver-customer calling, Firebase real-time updates, and a Laravel admin panel for fleet and order management.
+                </p>
+                <div class="project-stack">
+                    <span class="stack-tag">Flutter</span>
+                    <span class="stack-tag">Firebase</span>
+                    <span class="stack-tag">Agora</span>
+                    <span class="stack-tag">Laravel</span>
+                    <span class="stack-tag">GCP</span>
+                </div>
+            </div>
+
+            <div class="project-card fade-up">
+                <div class="project-card-top">
+                    <span class="project-number">06</span>
+                    <div class="project-links">
+                        <a href="#" class="project-link" title="GitHub">
+                            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.54-1.38-1.33-1.75-1.33-1.75-1.09-.74.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.48 1 .1-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 013-.4c1.02.005 2.04.14 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.65 1.66.24 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58C20.57 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                        </a>
+                        <a href="#" class="project-link" title="Live">
+                            <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <h3 class="project-title">C# Desktop Inventory System</h3>
+                <p class="project-desc">
+                    A Windows desktop application for inventory and stock management with barcode scanning support, automated reporting, and SQL Server integration — developed for an enterprise client at the Export Development Board.
+                </p>
+                <div class="project-stack">
+                    <span class="stack-tag">C#</span>
+                    <span class="stack-tag">.NET</span>
+                    <span class="stack-tag">SQL Server</span>
+                    <span class="stack-tag">WinForms</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
 </section>
+
 
 <!-- ── CONTACT ── -->
 <section id="contact">
