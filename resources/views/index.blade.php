@@ -945,7 +945,7 @@
 
 <!-- ── NAVIGATION ── -->
 <nav id="navbar">
-    <a href="#hero" class="nav-logo">dev<span>.</span></a>
+    <a href="#hero" class="nav-logo">{_NMB}<span>.</span></a>
     <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
@@ -966,8 +966,8 @@
         <div class="hero-badge">Available for work</div>
 
         <h1 class="hero-title">
-            <span class="line">Full Stack</span>
-            <span class="line accent">Developer</span>
+            <span class="line">Software</span>
+            <span class="line accent">Engineer</span>
             <span class="line stroke">& Builder</span>
         </h1>
 
@@ -1004,7 +1004,7 @@
 </section>
 
 <!-- ── ABOUT ── -->
-<section id="about">
+{{-- <section id="about">
     <div class="about-grid">
         <div class="fade-up">
             <div class="section-label">About me</div>
@@ -1024,7 +1024,7 @@
 
             <div class="about-stats">
                 <div class="stat-item">
-                    <div class="stat-num">3<sup>+</sup></div>
+                    <div class="stat-num">6<sup>+</sup></div>
                     <div class="stat-label">Years experience</div>
                 </div>
                 <div class="stat-item">
@@ -1032,7 +1032,7 @@
                     <div class="stat-label">Projects shipped</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-num">15<sup>+</sup></div>
+                    <div class="stat-num">8<sup>+</sup></div>
                     <div class="stat-label">Happy clients</div>
                 </div>
                 <div class="stat-item">
@@ -1044,8 +1044,8 @@
 
         <div class="fade-up">
             <div class="profile-card">
-                <div class="profile-avatar">NMB</div>
-                <div class="profile-name">Nishan Bandara</div>
+                <div class="profile-avatar">{NMB}</div>
+                <div class="profile-name">NishaN BandarA</div>
                 <div class="profile-role">Software Engineer</div>
                 <div class="profile-info">
                     <div class="info-row">
@@ -1063,6 +1063,81 @@
                     <div class="info-row">
                         <span class="info-key">focus</span>
                         <span class="info-val">·Flutter ·Laravel · Vue · Docker</span>
+                    </div>
+                </div>
+                <div class="profile-decor">&lt;/&gt;</div>
+            </div>
+        </div>
+    </div>
+</section> --}}
+
+<section id="about">
+    <div class="about-grid">
+        <div class="fade-up">
+            <div class="section-label">About me</div>
+            <h2 class="section-title">Passionate about<br>clean code &amp; great UX</h2>
+
+            <div class="about-text">
+                <p>
+                    I'm <strong>Nishan Bandara</strong>, a Full Stack Software Engineer with <strong>6+ years of experience</strong> building scalable web and mobile applications. I specialise in <strong>Flutter</strong> for cross-platform mobile development and <strong>Laravel / CodeIgniter</strong> on the backend.
+                </p>
+                <p>
+                    Currently serving as a <strong>Software Engineer at the Export Development Board</strong>, I work across Laravel, CodeIgniter, Flutter, React, Java, and C# — delivering end-to-end solutions for real-world government and enterprise needs.
+                </p>
+                <p>
+                    Previously I built production-grade Flutter &amp; Laravel applications at <strong>Prodigit Pvt Limited</strong> (India) and started my career as an Associate Software Engineer at <strong>Imedirep, VisionCare Group</strong>. I'm deeply passionate about clean architecture, mobile UX, and developer experience.
+                </p>
+            </div>
+
+            <div class="about-stats">
+                <div class="stat-item">
+                    <div class="stat-num">6<sup>+</sup></div>
+                    <div class="stat-label">Years experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-num">4<sup>+</sup></div>
+                    <div class="stat-label">Years Flutter dev</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-num">3</div>
+                    <div class="stat-label">Companies worked</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-num">∞</div>
+                    <div class="stat-label">Lines of code</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="fade-up">
+            <div class="profile-card">
+                <div class="profile-avatar">{NMB}</div>
+                <div class="profile-name">Nishan Bandara</div>
+                <div class="profile-role">Software Engineer · Full Stack</div>
+                <div class="profile-info">
+                    <div class="info-row">
+                        <span class="info-key">location</span>
+                        <span class="info-val">Colombo, Sri Lanka</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-key">current</span>
+                        <span class="info-val">Export Development Board</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-key">email</span>
+                        <span class="info-val">nishanmbandara.252@gmail.com</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-key">status</span>
+                        <span class="info-val" style="color:var(--neon)">● Open to work</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-key">focus</span>
+                        <span class="info-val">Flutter · Laravel · React · Docker</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-key">cloud</span>
+                        <span class="info-val">Firebase · GCP · Agora</span>
                     </div>
                 </div>
                 <div class="profile-decor">&lt;/&gt;</div>
@@ -1301,7 +1376,7 @@
                     </div>
                     <div class="contact-link-text">
                         <div class="contact-link-label">Email</div>
-                        <div class="contact-link-value">you@example.com</div>
+                        <div class="contact-link-value">nishanmbandara.252@gmail.com</div>
                     </div>
                     <svg class="contact-link-arrow" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                 </a>
@@ -1367,7 +1442,7 @@
 <!-- ── FOOTER ── -->
 <footer>
     <div class="footer-copy">
-        © {{ date('Y') }} <span>Your Name</span> — Built with Laravel &amp; passion
+        © {{ date('Y') }} <span>NISHAN BANDARA</span> — Built with Laravel &amp; passion
     </div>
     <div class="footer-socials">
         <a href="https://github.com" target="_blank" class="social-btn" title="GitHub">
